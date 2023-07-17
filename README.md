@@ -63,6 +63,22 @@ php spark serve
 
 ```
 
+### Rotas
+
+- `/`: Página inicial. Castegorias e Notícias;
+
+- `/noticias` Exibe todas as noticias cadastradas em ordem de criação;
+
+- `/noticias/create` Cria uma nova record com um formulário;
+
+- `/noticias/:id` Exibe informações sobre uma determinada notícia;
+
+- `/categorias` Exibe todas as categorias cadastradas em ordem de criação;
+
+- `/categorias/create` Cria uma nova record com um formulário;
+
+- `/categorias/:id` Exibe informações sobre uma determinada notícia. Aqui deve apresentar também as noticias que são categorizadas à ela
+
 ## Troubleshooting
 
 - Se não houver a conexão com MySQL ou algum erro no database contido, verifique se a extensão mysqli está ativada em seu `PHP.ini`;
