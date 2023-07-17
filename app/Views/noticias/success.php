@@ -1,0 +1,1 @@
+<h2 class="text-center mt-5">A noticia foi criada</h2>
